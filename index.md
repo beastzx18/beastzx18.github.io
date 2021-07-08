@@ -25,9 +25,9 @@ body {
 
 <body>
 
-<h1>Tronuserbot docs</h1>
+<h1 style="color:blue;">Tronuserbot docs</h1>
 
-<p>A way to get knowledge about Userbot.</p>
+<p>A way to get knowledge about Userbot</p>
 
 </body>
 
