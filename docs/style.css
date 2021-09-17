@@ -23,8 +23,6 @@ font-size: 20px;
 font-family: Arial;
 float: right;
 text-shadow: 1px 1px 2px #000000;
-padding-top: 10px;
-padding-left: 10px;
 
 }
 
@@ -32,7 +30,7 @@ padding-left: 10px;
 h2{
 
 padding-top: 10px;
-
+padding-right: 10px;
 }
 
 
