@@ -50,6 +50,11 @@ height: 200px;
 
 }
 
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: right;
 
 
 
