@@ -65,12 +65,15 @@ text-decoration: none;
 color: #ffffff;
 font-family: Arial;
 font-weight: bold;
-transition: 0.4s in-or-out;
+transition: 0.4s ease-in-out;
 
 }
 
+ul li a:hover{
 
+color: #ff7200;
 
+}
 
 
 
