@@ -55,5 +55,13 @@ font-family: sans-serif;
 }
 
 
+li a{
 
+text-decoration: none;
+color: #ffffff;
+word-spacing: 50px;
+padding-top: 10px;
+padding-right: 10px;
+font-family: sans-serif;
+}
 
