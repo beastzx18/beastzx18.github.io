@@ -1,5 +1,4 @@
 .container {
-  border-radius: 25px;
   position: relative;
   max-width: 80px; /* Maximum width */
   margin: 0 auto; /* Center it */
@@ -13,4 +12,8 @@
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 40px; /* Some padding */
+}
+
+img {
+  border-radius: 20%;
 }
