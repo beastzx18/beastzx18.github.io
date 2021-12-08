@@ -1,3 +1,7 @@
+img {
+  border-radius: 20%;
+}
+
 .container {
   position: relative;
   max-width: 80px; /* Maximum width */
@@ -14,6 +18,3 @@
   padding: 40px; /* Some padding */
 }
 
-img {
-  border-radius: 20%;
-}
