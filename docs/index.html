@@ -7,12 +7,36 @@
 <head>
 
 	<style>img {width: 100%;}</style>
+        <style>
+        body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+        }
+
+        .dark-mode {
+        background-color: black;
+        color: white;
+        }
+        </style>
+
 	<title>My first website</title>
 	<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+        
+        <button onclick="myFunction()">Dark mode</button>
+
+        <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+        </script>
+
         <div class="header">
         <a href="#default" class="logo">Demo Website</a>
         <div class="header-right">
