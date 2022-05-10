@@ -32,7 +32,7 @@
 
 /* Change colour of selected button */
 .header a:focus {
-  color: dodgerblue;
+  color: blue;
 }
 
 /* Style the active/current link*/
