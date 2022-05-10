@@ -31,8 +31,8 @@
 }
 
 /* Change colour of selected button */
-.header a:target {
-  color: white;
+.header a:focus {
+  color: dodgerblue;
 }
 
 /* Style the active/current link*/
