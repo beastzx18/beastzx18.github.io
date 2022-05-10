@@ -30,6 +30,11 @@
   color: black;
 }
 
+/* Change colour of selected button */
+.header a:active {
+  color: red;
+}
+
 /* Style the active/current link*/
 .header a.active {
   background-color: dodgerblue;
