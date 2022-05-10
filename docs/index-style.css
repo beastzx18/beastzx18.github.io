@@ -31,7 +31,7 @@
 }
 
 /* Change colour of selected button */
-.header a:focus {
+.header a:visited {
   color: blue;
 }
 
