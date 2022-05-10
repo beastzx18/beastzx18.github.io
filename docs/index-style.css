@@ -7,7 +7,7 @@
 }
 
 /* Style the header links */
-.header a {
+.header a:hover {
   float: left;
   color: black;
   text-align: center;
