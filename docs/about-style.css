@@ -53,13 +53,6 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -114,4 +107,9 @@ html {
   }
 }
 
-
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
