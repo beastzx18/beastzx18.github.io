@@ -1,7 +1,1 @@
-<html>
-<body>
-
-Thank you for contacting us !
-
-</body>
-</html>
+<?php echo "Thank you !";?>
