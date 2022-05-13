@@ -1,75 +1,106 @@
 <!DOCTYPE html>
-
 <html>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<style>img {width: 100%;}</style>
+<style>
+    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
 
-	<title>Incode team</title>
-	<link rel="stylesheet" href="index-style.css">
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #3a3a3a;
+  height: 5000px;
+  color: white;
+  border-radius: 25px;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: lightgrey;
+  position: relative;
+  color: black;
+  border-radius: 5px;
+}
+
+.topnav #myLinks {
+  display: none;
+  border-radius: 5px;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  border-radius: 5px;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+}
+
+.topnav a:hover {
+  background-color: #24c7d9;
+  color: white;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: white;
+  border-radius: 5px;
+  
+}
+</style>
 </head>
-
 <body>
 
-        <div class="header">
-        <a href="index" class="logo">MENU</a>
-        <div class="header-right">
-        <a class="active" href="index">Home</a>
-        <a href="contact">Contact</a>
-        <a href="about">About</a>
-        </div>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-        <div class="cards">
-    <article class="card">
-        <header>
-            <h2>Journey to North pole</h2>
-        </header>    
-        <img src="images/balloons.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
-        </div>
-            
-    </article>
-            
-     <article class="card">
-        <header>
-            <h2>Started here</h2>
-        </header>    
-        <img src="images/balloons2.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p>The idea of going to north pole is amazing</p>
-        </div>
-        <footer>:)</footer>
-    </article>
-            
-    <article class="card">
-        <header>
-            <h2>How they made their journey successful</h2>
-        </header>
-        <img src="images/balloons.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                suggestion for reaching the North Pole by an aerostat.</p>
-        </div>
-        <footer>That's it.</footer>
-    </article>
-    <article class="card">
-        <header>
-            <h2>They reached !g</h2>
-        </header>
-        <img src="images/balloons2.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                years ago. </p>
-        </div>
-
-    </article>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="home">Home</a>
+    <a href="contact">Contact</a>
+    <a href="about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
-           
-</body>
 
+<div style="padding-left:16px">
+  <h2>Demo Title</h2>
+  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
 </html>
